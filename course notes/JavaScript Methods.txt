@@ -1,0 +1,33 @@
+JavaScript Methods
+
+ADDING AND REMOVING ELEMENTS
+
+push()
+pop()
+unshift()
+shift()
+
+
+SEARCHING AND CHECKING ELEMENTS
+
+indexof() - gets the index of the param in the method
+includes() - searches if an element is in an array
+
+
+TRANSFORMING ARRAYS
+
+.map()
+.filter()
+.reduce()
+
+
+ARRANGEMENT
+
+.sort()
+.reverse()
+
+OTHERS
+
+.join()
+.slice()
+.splice()
