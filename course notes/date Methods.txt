@@ -1,0 +1,36 @@
+date Methods
+
+
+4 WAYS TO CREATE A NEW DATE CLASS
+
+1. date()
+2. date(Milliseconds)
+3. date(dateString)
+4. date(years, monthIndex, days, hrs, mins, seconds, mseconds)
+
+
+
+CALLING PARTICULAR DATE VALUES USING THE NEW DATE CLASS
+
+d.getFullYear();
+d.getMonth(); - gets the month index (January = 0 and December = 11)
+d.getDate();
+d.getDay(); - gets the day index (sunday = 0 and Saturday = 6)
+d.getHours();
+d.getMinutes();
+d.getSeconds();
+d.getMilliseconds();
+d.getTime(); - gets milliseconds since epoch (January 1, 1970)
+d.toDateString();
+d.toISOString();
+
+
+
+SETTING NEW DATE AFTER DATE CLASS DEFIITION
+
+d.setFullYear(year);
+d.setMonth(monthIndex);
+d.setDate(date);
+d.setHours(hours);
+d.setMinutes(minutes);
+d.setSeconds(secs);
